@@ -65,7 +65,7 @@ wget -q https://raw.githubusercontent.com/antonioCoco/ConPtyShell/master/Invoke-
 
 printf "[+] Wordlist Configurations \n"
 
-gunzip /usr/share/wordlists/rockyou.txt.gz
+sudo gunzip /usr/share/wordlists/rockyou.txt.gz
 cp /usr/share/wordlists/rockyou.txt .
 
 echo '$!' > end_1_exclam.rule
