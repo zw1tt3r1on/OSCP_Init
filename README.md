@@ -14,3 +14,7 @@ chmod +x oscp_init.sh
 ```
 ./oscp_init.sh
 ```
+
+### Notes
+
+- Don't forget to change IP in config.Library-ms
