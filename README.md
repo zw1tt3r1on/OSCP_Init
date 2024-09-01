@@ -17,4 +17,6 @@ chmod +x oscp_init.sh
 
 ### Notes
 
+For SMTP Phishing
 - Don't forget to change IP in config.Library-ms
+- 1.ps1 is the powershell base64 reverse shell, tweak for specific IP and PORT
