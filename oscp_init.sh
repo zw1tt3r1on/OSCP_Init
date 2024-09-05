@@ -50,6 +50,7 @@ printf "[+] Downloading Windows Enum Tools \n"
 wget -q https://github.com/peass-ng/PEASS-ng/releases/download/20240901-df0685e9/winPEAS.bat
 wget -q https://github.com/peass-ng/PEASS-ng/releases/download/20240901-df0685e9/winPEASx64.exe
 wget -q https://github.com/peass-ng/PEASS-ng/releases/download/20240901-df0685e9/winPEASx86.exe
+wget -q https://github.com/AlessandroZ/LaZagne/releases/download/v2.4.6/LaZagne.exe
 
 printf "[+] Downloading Common Windows Exploits \n"
 
