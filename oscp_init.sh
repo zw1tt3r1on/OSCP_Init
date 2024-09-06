@@ -21,6 +21,13 @@ sudo apt install feroxbuster -y
 sudo apt install remmina -y
 pip3 install uploadserver
 
+printf "[+] Downloading Rustscan \n"
+wget -q https://github.com/RustScan/RustScan/releases/download/2.3.0/rustscan-2.3.0-x86_64-linux.zip
+unzip rustscan-2.3.0-x86_64-linux.zip
+mv tmp/rustscan-2.3.0-x86_64-linux/rustscan .
+rm rustscan-2.3.0-x86_64-linux.zip
+rm -rf tmp
+
 printf "[+] Configure Neo4j while waiting http://localhost:7474 \n"
 (&>/dev/null neo4j &)
 
