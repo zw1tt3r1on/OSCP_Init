@@ -66,6 +66,7 @@ wget -q https://github.com/BeichenDream/GodPotato/releases/download/V1.20/GodPot
 wget -q https://github.com/BeichenDream/GodPotato/releases/download/V1.20/GodPotato-NET35.exe
 wget -q https://github.com/BeichenDream/GodPotato/releases/download/V1.20/GodPotato-NET4.exe
 wget -q https://github.com/itm4n/PrintSpoofer/releases/download/v1.0/PrintSpoofer64.exe
+wget -q https://github.com/itm4n/FullPowers/releases/download/v0.1/FullPowers.exe
 
 printf "[+] Downloading Windows ConPtyShell \n"
 
