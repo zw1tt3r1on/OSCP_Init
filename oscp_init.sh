@@ -28,6 +28,10 @@ mv tmp/rustscan-2.3.0-x86_64-linux/rustscan .
 rm rustscan-2.3.0-x86_64-linux.zip
 rm -rf tmp
 
+printf "[+] Setting up nmapAutomator \n"
+git clone https://github.com/21y4d/nmapAutomator.git
+sudo ln -s $(pwd)/nmapAutomator/nmapAutomator.sh /usr/local/bin/
+
 printf "[+] Configure Neo4j while waiting http://localhost:7474 \n"
 (&>/dev/null neo4j &)
 
