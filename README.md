@@ -18,6 +18,7 @@ chmod +x oscp_init.sh
 ### Notes
 
 All tools here are the OSCP Modules and Labs for highest compatibility with OSCP Boxes
+
 Backup of full toollist can be found in the release section
 
 For SMTP Phishing
