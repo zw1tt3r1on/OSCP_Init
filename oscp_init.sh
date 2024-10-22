@@ -33,7 +33,7 @@ git clone https://github.com/21y4d/nmapAutomator.git
 sudo ln -s $(pwd)/nmapAutomator/nmapAutomator.sh /usr/local/bin/
 
 printf "[+] Configure Neo4j while waiting http://localhost:7474 \n"
-(&>/dev/null neo4j &)
+sudo neo4j start
 
 printf "[+] Downloading Pivoting Tools \n"
 
