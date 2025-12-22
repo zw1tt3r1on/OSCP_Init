@@ -19,7 +19,7 @@ sudo apt install bloodhound -y
 sudo apt install bloodhound.py -y
 sudo apt install feroxbuster -y
 sudo apt install remmina -y
-pip3 install uploadserver
+pip3 install uploadserver --break-system-packages
 
 printf "[+] Downloading Rustscan \n"
 wget -q https://github.com/RustScan/RustScan/releases/download/2.3.0/rustscan-2.3.0-x86_64-linux.zip
